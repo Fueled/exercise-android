@@ -1,0 +1,535 @@
+{
+  "payload":{
+    "groupName":"Leads",
+    "fields":{
+      "f1932":{
+        "can_edit":true,
+        "data_type":"email",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Optional Email"
+      },
+      "id":{
+        "can_edit":false,
+        "data_type":"numeric",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Contact ID"
+      },
+      "unique_id":{
+        "can_edit":false,
+        "data_type":"unique",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Unique ID"
+      },
+      "company":{
+        "can_edit":true,
+        "data_type":"related",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Company"
+      },
+      "f1877":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":true,
+        "is_unique":false,
+        "field_title":"Test Name"
+      },
+      "dlm":{
+        "can_edit":false,
+        "data_type":"timestamp",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Date Modified"
+      },
+      "ip_addy_display":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"IP Address"
+      },
+      "timezone":{
+        "can_edit":true,
+        "data_type":"timezone",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Timezone"
+      },
+      "dla":{
+        "can_edit":false,
+        "data_type":"timestamp",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Last Activity"
+      },
+      "date_last_email_received":{
+        "can_edit":false,
+        "data_type":"timestamp",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Last Email Received"
+      },
+      "f1876":{
+        "can_edit":true,
+        "data_type":"items",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Pizza Toppings"
+      },
+      "f1878":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":true,
+        "is_unique":false,
+        "field_title":"Required Text"
+      },
+      "twitter":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Twitter"
+      },
+      "facebook":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Facebook"
+      },
+      "instagram":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Instagram"
+      },
+      "linkedin":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Linkedin"
+      },
+      "address":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Address"
+      },
+      "state":{
+        "can_edit":true,
+        "data_type":"state",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"State"
+      },
+      "office_phone":{
+        "can_edit":true,
+        "data_type":"phone",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Office Phone"
+      },
+      "profile_image":{
+        "can_edit":false,
+        "data_type":"image",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Profile Image"
+      },
+      "last_note":{
+        "can_edit":false,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Last Note"
+      },
+      "f1809":{
+        "can_edit":true,
+        "data_type":"check",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Check Field"
+      },
+      "fax":{
+        "can_edit":true,
+        "data_type":"phone",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Fax"
+      },
+      "grade":{
+        "can_edit":false,
+        "data_type":"numeric",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Score"
+      },
+      "f1866":{
+        "can_edit":false,
+        "data_type":"related_object",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Owner Email"
+      },
+      "f1872":{
+        "can_edit":true,
+        "data_type":"price",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Total Money"
+      },
+      "f1870":{
+        "can_edit":true,
+        "data_type":"address",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Home Address"
+      },
+      "f1869":{
+        "can_edit":true,
+        "data_type":"address",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Address 3"
+      },
+      "f1863":{
+        "can_edit":true,
+        "data_type":"longtext",
+        "is_required":true,
+        "is_unique":false,
+        "field_title":"Long Texter"
+      },
+      "f1864":{
+        "can_edit":true,
+        "data_type":"timestamp",
+        "is_required":true,
+        "is_unique":false,
+        "field_title":"Timestamp"
+      },
+      "f2069":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":true,
+        "is_unique":false,
+        "field_title":"Required 1250"
+      },
+      "f2068":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":true,
+        "is_unique":false,
+        "field_title":"Required 1239"
+      },
+      "amount":{
+        "can_edit":false,
+        "data_type":"price",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Last Amount"
+      },
+      "ccType":{
+        "can_edit":false,
+        "data_type":"select",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Card Type"
+      },
+      "ccNumber":{
+        "can_edit":false,
+        "data_type":"numeric",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Card Number"
+      },
+      "ccExpirationMonth":{
+        "can_edit":false,
+        "data_type":"select",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Card Expiration Month"
+      },
+      "result":{
+        "can_edit":false,
+        "data_type":"select",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Latest Result"
+      },
+      "ccExpiration":{
+        "can_edit":false,
+        "data_type":"numeric",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Card Expiry Year"
+      },
+      "address2":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Address 2"
+      },
+      "firstname":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"First Name"
+      },
+      "lastname":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Last Name"
+      },
+      "email":{
+        "can_edit":true,
+        "data_type":"email",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Email"
+      },
+      "title":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Title"
+      },
+      "city":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"City"
+      },
+      "zip":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Zip Code"
+      },
+      "country":{
+        "can_edit":true,
+        "data_type":"country",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Country"
+      },
+      "f1865":{
+        "can_edit":true,
+        "data_type":"select",
+        "is_required":true,
+        "is_unique":false,
+        "field_title":"Urgency"
+      },
+      "f1895":{
+        "can_edit":true,
+        "data_type":"check",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"New Field"
+      },
+      "f2011":{
+        "can_edit":true,
+        "data_type":"rich_text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Rich Text Field"
+      },
+      "stage":{
+        "can_edit":true,
+        "data_type":"select",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Stage"
+      },
+      "priority":{
+        "can_edit":true,
+        "data_type":"select",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Priority"
+      },
+      "time_dla":{
+        "can_edit":true,
+        "data_type":"select",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Time Since Active"
+      },
+      "f1935":{
+        "can_edit":true,
+        "data_type":"select",
+        "is_required":true,
+        "is_unique":false,
+        "field_title":"Jon Does Color"
+      },
+      "sms_number":{
+        "can_edit":true,
+        "data_type":"sms",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"SMS Number"
+      },
+      "birthday":{
+        "can_edit":true,
+        "data_type":"fulldate",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Birthday"
+      },
+      "website":{
+        "can_edit":true,
+        "data_type":"url",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Website"
+      },
+      "owner":{
+        "can_edit":true,
+        "data_type":"related",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Owner"
+      },
+      "lead_source":{
+        "can_edit":true,
+        "data_type":"related",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Lead Source"
+      },
+      "medium":{
+        "can_edit":true,
+        "data_type":"related",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Medium"
+      },
+      "content":{
+        "can_edit":true,
+        "data_type":"related",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Content"
+      },
+      "term":{
+        "can_edit":true,
+        "data_type":"related",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Term"
+      },
+      "paypal":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Paypal Address"
+      },
+      "num_sales":{
+        "can_edit":false,
+        "data_type":"numeric",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Number of Sales"
+      },
+      "program_id":{
+        "can_edit":true,
+        "data_type":"related",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Related Program"
+      },
+      "sales_amount":{
+        "can_edit":false,
+        "data_type":"price",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Sales Amount"
+      },
+      "ref_page":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Reference Page"
+      },
+      "fbc":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Facebook fbc"
+      },
+      "fbp":{
+        "can_edit":true,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Facebook fbp"
+      },
+      "last_sms":{
+        "can_edit":false,
+        "data_type":"text",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Last SMS"
+      },
+      "invoice_no":{
+        "can_edit":false,
+        "data_type":"numeric",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Invoice No"
+      },
+      "unpaid":{
+        "can_edit":false,
+        "data_type":"price",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Amount of Unpaid"
+      },
+      "invoice_tot":{
+        "can_edit":false,
+        "data_type":"price",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Total Invoice"
+      },
+      "cc_expire":{
+        "can_edit":false,
+        "data_type":"fulldate",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Card Expiry Date"
+      },
+      "date":{
+        "can_edit":false,
+        "data_type":"timestamp",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Date Added"
+      },
+      "total_spend":{
+        "can_edit":false,
+        "data_type":"price",
+        "is_required":false,
+        "is_unique":false,
+        "field_title":"Spent"
+      }
+    },
+    "shortName":"Customer"
+  },
+  "status":"OK",
+  "userId":"891932"
+}

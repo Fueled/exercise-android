@@ -1,0 +1,14 @@
+{
+  "status": "OK",
+  "payload": {
+    "fields": [
+      "firstname",
+      "lastname",
+      "email",
+      "office_phone",
+      "dlm"
+    ],
+    "count": 2560
+  },
+  "userId":"891932"
+}

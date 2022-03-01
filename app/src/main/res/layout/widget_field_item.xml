@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="field"
+            type="com.fueled.technicalchallenge.domain.model.Field" />
+
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="4dp">
+
+        <TextView
+            android:id="@+id/field_alias"
+            style="@style/FieldAliasStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:bindFieldAlias="@{field.alias}"
+            tools:text="First Name: " />
+
+        <TextView
+            android:id="@+id/field_value"
+            style="@style/FieldValueStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/field_alias"
+            android:text="@{field.displayValue}"
+            android:textSize="11dp"
+            android:textStyle="normal"
+            tools:text="John Doe" />
+
+    </RelativeLayout>
+</layout>

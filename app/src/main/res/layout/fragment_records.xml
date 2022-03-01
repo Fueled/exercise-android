@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="state"
+            type="com.fueled.technicalchallenge.ui.records.RecordsState" />
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.MainActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="@{state.collectionTitle}"
+            app:titleTextColor="@color/white"
+            tools:title="Collection Title" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/record_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:orientation="vertical"
+            android:overScrollMode="ifContentScrolls"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:setListItems="@{state.records}" />
+
+    </RelativeLayout>
+</layout>
