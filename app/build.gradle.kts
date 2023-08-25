@@ -24,13 +24,15 @@ android {
         dataBinding = true
     }
 
+    val javaVersion = JavaVersion.VERSION_17
+
     compileOptions {
         isCoreLibraryDesugaringEnabled = true
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = javaVersion
+        targetCompatibility = javaVersion
     }
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17.toString()
+        jvmTarget = javaVersion.toString()
     }
 }
 
