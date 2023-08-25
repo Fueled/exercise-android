@@ -5,23 +5,23 @@ object Versions {
     const val ANDROID_KTX = "1.6.0"
     const val CONSTRAINT_LAYOUT = "2.1.0"
 
-    const val COROUTINES = "1.6.0"
+    const val COROUTINES = "1.7.3"
 
-    const val NAVIGATION = "2.3.0"
+    const val NAVIGATION = "2.7.1"
 
-    const val LIFECYCLE_KTX = "2.4.1"
+    const val LIFECYCLE_KTX = "2.6.1"
 
-    const val GSON = "2.8.8"
+    const val GSON = "2.10.1"
 
-    const val FRAGMENT_KTX = "1.3.6"
+    const val FRAGMENT_KTX = "1.6.1"
 
     const val LEAK_CANARY = "2.7"
 
-    const val BUILD_TOOLS = "7.0.3"
+    const val BUILD_TOOLS = "8.1.0"
 
-    const val KOTLIN = "1.5.30"
+    const val KOTLIN = "1.8.22"
 
-    const val HILT = "2.38.1"
+    const val HILT = "2.47"
 
     const val JDK_DESUGAR = "1.1.5"
 
