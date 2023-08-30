@@ -8,6 +8,7 @@ plugins {
 
 android {
     compileSdk = Application.compileSdk
+    namespace = "com.fueled.technicalchallenge"
 
     defaultConfig {
         applicationId = Application.applicationId
@@ -23,13 +24,15 @@ android {
         dataBinding = true
     }
 
+    val javaVersion = JavaVersion.VERSION_17
+
     compileOptions {
         isCoreLibraryDesugaringEnabled = true
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = javaVersion
+        targetCompatibility = javaVersion
     }
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8.toString()
+        jvmTarget = javaVersion.toString()
     }
 }
 
